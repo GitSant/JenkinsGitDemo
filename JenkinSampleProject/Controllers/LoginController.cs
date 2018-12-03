@@ -43,7 +43,6 @@ namespace JenkinSampleProject.Controllers
             TempData["IsLoggedIn"] = false;
             return RedirectToAction("Login", "Login");
         }
-        //If login success navigate to LandingPage
         public ActionResult UserHomeView()
         {
             TempData["IsLoggedIn"] = true;
