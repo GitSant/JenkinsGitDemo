@@ -49,7 +49,7 @@ namespace JenkinSampleProject.Tests.Controllers
             ViewResult result = controller.Contact() as ViewResult;
 
             // Assert
-            Assert.IsNotNull(result);
+            Assert.IsNull(result);
         }
     }
 }
